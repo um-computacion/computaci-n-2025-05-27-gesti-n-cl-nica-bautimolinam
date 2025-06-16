@@ -1,10 +1,10 @@
-# tests/test_especialidad.py
+
 
 import unittest
 import sys
 import os
 
-# Agregar el directorio padre al path para poder importar el modelo
+
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from modelo.modeloespecialidad import Especialidad
