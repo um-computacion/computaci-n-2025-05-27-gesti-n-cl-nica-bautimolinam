@@ -4,9 +4,9 @@
 ## 👤 Información del Alumno
 
 ### 📋 Datos Personales
-- **Nombre y Apellido**: [Completar con nombre y apellido]
+- **Nombre y Apellido**: [Bautista molina muñoz]
 - **Ciclo Lectivo**: 2025
-- **Carrera**: [Completar con nombre de la carrera]
+- **Carrera**: [ingenieria informatica]
 
 ## ⏰ Información Importante sobre la Entrega
 
@@ -70,8 +70,17 @@ Desarrollar un sistema de gestión para una **clínica médica** utilizando prog
    - Cómo ejecutar el sistema.
    - Cómo ejecutar las pruebas.
    - Explicación de diseño general.
+ el sistema se puede ejecutar con run python file o desde la terminal, las pruebas las ejecutas desde la terminal, con el comando -m unittest
+ el diseño esta hecho asi por comodidad que lo dividi en 2 carpetas una para el modelo y otra para los test.
+ Clases principales:
 
----
+Clinica: Coordinador central, gestiona todas las operaciones
+Paciente: Datos básicos del paciente
+Medico: Información del médico con especialidades
+Turno: Citas médicas agendadas
+Receta: Prescripciones médicas
+HistoriaClinica: Historial completo por paciente
+Especialidad: Especialidades médicas con días de atención
 
 # 📦 Clases y Responsabilidades
 
